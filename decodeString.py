@@ -1,4 +1,10 @@
-
+#---------------Explaination----------------------------
+#using two stacks, one for intergers and other for characters,
+#Whenever we encounter any number, push it into the integer stack and in case of any alphabet (a to z) or open bracket (‘[‘), push it onto the character stack
+#Whenever any close bracket (‘]’) is encounter pop the character from the character stack until open bracket (‘[‘) is not found in the character stack. Also, pop the top element from the integer stack, say n.
+#Now make a string repeating the popped character n number of time. 
+#Now, push all character of the string in the stack
+#-----------Programming---------------------
 # Python program to decode a string 
 # The string is returned as decoded for 's'
 def decode(s):
