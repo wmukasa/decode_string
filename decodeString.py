@@ -1,6 +1,6 @@
 
 # Python program to decode a string 
-# The string is returned as decoded for 'Str
+# The string is returned as decoded for 's'
 def decode(s):
     intstack = []
     stringstack = []
